@@ -1,0 +1,14 @@
+.banner{
+    border: 2px solid green;
+    height:100px;
+}
+.decoration{
+    border: 2px dotted blue;
+}
+.body{
+    border: 2px solid red;
+}
+.section{
+    border: 2px dotted rgb(3, 112, 74);
+    height: 400px;
+}

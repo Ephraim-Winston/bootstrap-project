@@ -1,14 +1,40 @@
 .banner{
     border: 2px solid green;
-    height:100px;
+    height:150px;
+    background-color: rgb(23, 23, 91);
+    color: rgb(186, 102, 7);
 }
 .decoration{
+    padding:5px;
     border: 2px dotted blue;
+    background-color: rgb(186, 102, 7);
+    color: black;
 }
 .body{
     border: 2px solid red;
 }
 .section{
     border: 2px dotted rgb(3, 112, 74);
-    height: 400px;
+    height: 600px;
+
+}
+.search-bar{
+    padding-top:30px;
+}
+
+.title{
+    padding-top: 10px;
+}
+
+
+@media (min-width: 768px){
+    .dropdown{
+        display: none !important;
+    }
+
+}
+@media (max-width:768px){
+    .tools{
+        display: none !important;
+    }
 }

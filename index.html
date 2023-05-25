@@ -26,7 +26,7 @@
 
     <div class="row banner justify-content-between">
       <div class="col-2 col-sm-2 col-md-2 col-lg-2  profile-photo decoration">
-        Profile photo
+        Welcome! <br>Ephraim Winston
         <!--Trying to make my tool dropdown only appear when tool side bar disappears-->
         <div class="dropdown">
           <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="tool-dropdown"
@@ -60,31 +60,77 @@
 
 
     <div class="row body">
-      <div class="col-sm-2 col-md-2 col-lg-1 section tools">
-        Tool bar
+      <div class="col-sm-2 col-md-2 col-lg-2 section tools">
 
+        <button type="button" class="btn btn-primary btn-md compose-button">Compose</button>
+
+        <div class="btn-group btn-group-vertical button-group">
+          <button class="btn tool-button">Inbox</button>
+          <button class="btn tool-button">Sent</button>
+          <button class="btn tool-button">Drafts</button>
+          <button class="btn tool-button">Important</button>
+          <button class="btn tool-button">Trash</button>
+        </div>
+        
       </div>
-      <div class=" col-5 col-sm-5 col-md-4 col-lg-4 section">
+      <div class=" col-5 col-sm-5 col-md-4 col-lg-5 section email">
         Emails
-        <div class="card">
-          <div class="card-body">
+        <div class="card messages jesse-card">
+          <div class="card-body messages">
             <h5 class="card-title d-flex">Jesse:</h5>
             <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
             <p class="card-text d-flex justify-content-start">I crashed my car and the cops found my weed can you pick
               me up?</p>
           </div>
+          </div>
           <div class="card">
-            <div class="card-body">
-              <h5 class="card-title d-flex">Jesse:</h5>
+            <div class="card-body messages ">
+              <h5 class="card-title d-flex">Victor:</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
-              <p class="card-text d-flex justify-content-start">I crashed my car and the cops found my weed can you pick
-                me up?</p>
+              <p class="card-text d-flex justify-content-start">Yo me and the boys going to do some shrooms in the forrest you down?</p>
             </div>
-
+        </div>
+        <div class="card">
+          <div class="card-body messages ">
+            <h5 class="card-title d-flex">Gio:</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+            <p class="card-text d-flex justify-content-start">Yo, we're hitting the club tonight. Lmk if your coming...BITCH!</p>
           </div>
         </div>
-        <div class="col-7 col-sm-7 col-md-6 col-lg-7 section current-email">
-          Current Email
+        <div class="card">
+          <div class="card-body messages ">
+            <h5 class="card-title d-flex">Jackie:</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+            <p class="card-text d-flex justify-content-start">Im nervy. Reply when you can. I have tea.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body messages ">
+            <h5 class="card-title d-flex">Zan:</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+            <p class="card-text d-flex justify-content-start">Sorry, I'm busy.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body messages ">
+            <h5 class="card-title d-flex">Owen:</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+            <p class="card-text d-flex justify-content-start">Yo did you listen to that JPEG song I sent, it's been 5 yrs.</p>
+          </div>
+        </div>
+      </div>
+      <!--This is where my reply section goes-->
+        <div class="col-7 col-sm-7 col-md-6 col-lg-5 section current-email">
+          <h1 align="left">Jesse:</h1>
+          <p align="left">I crashed my car and the cops found my weed can you pick
+            me up?</p>
+
+
+            <div class="mb-3 reply-box">
+              
+              <textarea class="form-control input-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary d-flex align-item-end flex-column" type="submit">Reply</button>
         </div>
       </div>
     </div>
